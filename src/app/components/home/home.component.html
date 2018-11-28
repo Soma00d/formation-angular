@@ -1,0 +1,8 @@
+<div class="container">
+ 
+    <mat-card *ngFor="let ra of race" [routerLink]="['/race', ra.id]">
+      <mat-card-title>{{ra.name}}</mat-card-title>
+      <img [src]="ra.img"/>
+    </mat-card>
+ 
+</div>

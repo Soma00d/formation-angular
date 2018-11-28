@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@font-face {
+    font-family: 'double_featureregular';
+    src: url('assets/fonts/bloody.woff2') format('woff2'),
+         url('assets/fonts/bloody.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background:url("./assets/boucherie.jpg")0 0 no-repeat;
+    background-size: cover;
+    color:white;
+    font-family: double_featureregular;
+}
+.router-link-active{
+    color:black;
+    background:gold;
+}
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+}

@@ -1,0 +1,10 @@
+<div *ngIf="race">
+    <h1>{{race.name}} - id {{race.id}}</h1>
+    <button mat-button color="primary">List Ponies</button>
+    <fag-poney 
+    *ngFor="let poney of ponies$ | async | filterPonies:race.poneyIds"
+    [poney]="poney" 
+    (win)="handleWin($event)"
+    ></fag-poney>
+</div>
+

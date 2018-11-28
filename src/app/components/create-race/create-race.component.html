@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Create new pony race !</h1>
+  <form [formGroup]="raceForm" (submit)="handleSubmit()">
+
+      <mat-form-field>
+        <input formControlName="name" matInput name="name" type="text" placeholder="Races Name"/>
+        <mat-error *ngIf="raceForm.controls.name.hasError('required')">This field is required</mat-error>
+        <mat-error *ngIf="raceForm.controls.name.hasError('required')">This field need 2 letters min</mat-error>
+      </mat-form-field>
+      <br>
+      <mat-form-field>
+          <mat-select placeholder="Ponies" multiple formControlName="poneyIds">
+            <mat-option *ngFor="let poney of ponies$ | async" [value]="poney.id">
+              {{ poney.name }}
+            </mat-option>
+          </mat-select>
+          <mat-error *ngIf="raceForm.controls.poneyIds.hasError('required')">This field is required</mat-error>
+        </mat-form-field>
+        <br>
+        <button [disabled]="!raceForm.valid" mat-raised-button color="primary">Create !</button>
+  </form>
+</div>

@@ -1,0 +1,83 @@
+{
+  "races": [
+    {
+      "id": 0,
+      "name": "En route vers l'abattoir",
+      "poneyIds": [
+        0,
+        1,
+        2
+      ],
+      "img": "assets/cheval.jpg"
+    },
+    {
+      "id": 1,
+      "name": "HPR  - Hachis Parmentier Rush ",
+      "poneyIds": [
+        1,
+        0,
+        2
+      ],
+      "img": "assets/hachis.JPG"
+    },
+    {
+      "img": "assets/boucherie.jpg",
+      "name": "Bamboula",
+      "poneyIds": [
+        0,
+        1
+      ],
+      "id": 2
+    },
+    {
+      "img": "assets/boucherie.jpg",
+      "name": "Bamboula",
+      "poneyIds": [
+        0,
+        1
+      ],
+      "id": 3
+    },
+    {
+      "img": "assets/boucherie.jpg",
+      "name": "Bamboula",
+      "poneyIds": [
+        0,
+        1
+      ],
+      "id": 4
+    },
+    {
+      "img": "assets/boucherie.jpg",
+      "name": "bambou",
+      "poneyIds": [
+        0,
+        1
+      ],
+      "id": 5
+    }
+  ],
+  "ponies": [
+    {
+      "id": 0,
+      "name": "Jean-Michel Dada",
+      "img": "assets/pony-green-running.gif",
+      "color": "green",
+      "baseImg": "assets/pony-green-running.gif"
+    },
+    {
+      "id": 1,
+      "name": "TurboPoney",
+      "img": "assets/pony-blue-running.gif",
+      "color": "blue",
+      "baseImg": "assets/pony-blue-running.gif"
+    },
+    {
+      "id": 2,
+      "name": "Cheval Charette",
+      "img": "assets/pony-orange-running.gif",
+      "color": "orange",
+      "baseImg": "assets/pony-orange-running.gif"
+    }
+  ]
+}

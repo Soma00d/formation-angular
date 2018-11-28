@@ -1,0 +1,14 @@
+.container{
+    width:100%;
+    position:relative;
+    border-bottom:4px solid red;
+    height:150px;
+    background:url("../../../assets/flame.webp") 0 0 repeat;
+    text-align: center;
+}
+.poneyBlock{
+    width:30%;
+    position:absolute;
+    left:0;
+    transition:left 1s linear;
+}

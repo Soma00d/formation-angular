@@ -1,0 +1,6 @@
+<div class="container">
+  <p class="poneyBlock" [style.left]="poney.distance | percent" fagRainbow [poney]="poney" index="i">
+    {{poney.name | uppercase}}<br>
+    <img #poneyImg [src]="poney.img">
+  </p>
+</div>
